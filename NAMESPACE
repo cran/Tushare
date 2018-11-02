@@ -1,2 +1,6 @@
 import(httr)
+import(tidyverse)
+import(forecast)
+import(data.table)
 export(pro_api)
+export(pro_bar)

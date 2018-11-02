@@ -1,7 +1,7 @@
 Package: Tushare
 Type: Package
 Title: Interface to 'Tushare Pro' API
-Version: 0.1.0
+Version: 0.1.1
 Author: Feifei ZHANG
 Maintainer: Feifei ZHANG<tushare_pro@163.com>
 Description: Helps the R users to get data from 'Tushare Pro'<https://tushare.pro>.
@@ -10,8 +10,8 @@ Description: Helps the R users to get data from 'Tushare Pro'<https://tushare.pr
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
-Depends: httr
+Depends: httr, tidyverse, forecast, data.table
 NeedsCompilation: no
-Packaged: 2018-10-18 09:07:02 UTC; xiaoz
+Packaged: 2018-11-01 11:00:43 UTC; xiaoz
 Repository: CRAN
-Date/Publication: 2018-10-28 19:00:23 UTC
+Date/Publication: 2018-11-02 09:30:03 UTC
