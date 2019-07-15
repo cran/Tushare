@@ -34,11 +34,9 @@ pro_api <- function(token) {
       return(NULL)
     }
     columns <- res$data$fields
-    items = unlist(res$data$items)
-    df <- data.frame(matrix(items,
-                           nrow = length(items) / length(columns),
-                           byrow = TRUE))
-    names(df) <- columns
+    items <- res$data$items
+    df <- as.data.frame(data.table::rbindlist(items))
+    colnames(df) <- columns
     return(df)
   })
 }
