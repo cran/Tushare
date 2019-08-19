@@ -20,7 +20,7 @@ utils::globalVariables(c(".", "adj_factor", "left_join", "mutate_all", "select",
 # Return the interface via passing a token.
 # The interface lets you call each api in Tushare Pro.
 pro_api <- function(token) {
-  http_url <- "http://api.tushare.pro"
+  http_url <- "http://api.waditu.com"
 
   return(function(api_name, ...){
     params <- list(
@@ -40,7 +40,6 @@ pro_api <- function(token) {
     return(df)
   })
 }
-
 
 # return the interface "pro_bar"
 # "pro_bar" is an interface like "bar" in tushare.

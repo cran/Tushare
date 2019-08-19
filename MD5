@@ -1,7 +1,7 @@
-93f9f0632fd426a288b7cb59fa5fe5ea *DESCRIPTION
+a23a46b7cd85101b5a48f7cfb806354c *DESCRIPTION
 12fa99bc542d9224ad3e67c04d875067 *NAMESPACE
-5590a47e1a6a76df1fb63920ecc82da1 *R/Tushare.R
-b12e0ce932186d06a1442b9532e49bc6 *build/partial.rdb
+de377607de981948d5db52c098744711 *R/Tushare.R
+7caa0d8ac28ee27ef870dbf7f74e3249 *build/partial.rdb
 7b1f12594230343e776c2a89966a4e7e *man/Tushare-package.Rd
 ae31b81e8db579a23da8b536933ec6a8 *man/pro_api.Rd
 1968135303eede2e8044ad5c985c80ad *man/pro_bar.Rd
